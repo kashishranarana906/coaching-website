@@ -1,99 +1,10 @@
 
 *{
-   
+   margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-.logout-btn {
-    background-color: #e63946;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.logout-btn:hover {
-    background-color: #d62828;
-}
-/* ===== Login Page ===== */
-.{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right,#4facfe,#00f2fe);
-}
-body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right, #4facfe, #00f2fe);
-}
-
-.login-box {
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    text-align: center;
-    width: 300px;
-    
-}
-
-.login-box h2 {
-    margin-bottom: 20px;
-}
-
-.login-box input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.login-box button {
-    width: 100%;
-    padding: 10px;
-    background: #4facfe;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.login-box button:hover {
-    background: #0077ff;
-}
-
-/*navbar*/
-header{
-    background: rgb(52, 52, 116);
-    color: white;
-    padding: 15px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-header{
-    background: rgb(52, 52, 116);
-    color: white;
-    padding: 15px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
-header{
-    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-}
-
-
     /* ADD THIS */
     position: sticky;
     top: 0;
@@ -181,6 +92,9 @@ header nav a{
 .courses{
     padding: 50px 20px;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .course-box{
     display: flex;
@@ -318,6 +232,7 @@ font-size: 16px;
    padding: 50px 20px;
    text-align: center;
    background: #f1f5f9;
+   
 }
 .gallery h2 {
     margin-bottom: 30px;
@@ -329,7 +244,7 @@ font-size: 16px;
     gap: 15px;
 }
 .gallery-container img {
-    width: 100%;
+    width:200px;
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
@@ -382,15 +297,6 @@ footer{
     color: white;
     text-align: center;
     padding: 15px;
-}
-
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 /*navbar*/
 header{
